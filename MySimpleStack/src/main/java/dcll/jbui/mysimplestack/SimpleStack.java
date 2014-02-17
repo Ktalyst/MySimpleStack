@@ -7,4 +7,5 @@ public interface SimpleStack
     Item peek();
     int getSize();
     boolean isEmpty();
+    void untruc();
 }

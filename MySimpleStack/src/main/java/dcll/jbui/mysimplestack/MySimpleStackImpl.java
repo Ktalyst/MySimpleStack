@@ -11,5 +11,6 @@ public class MySimpleStackImpl implements SimpleStack
     public Item peek() {return list.getFirst();}
     public int getSize() {return list.size();}
     public boolean isEmpty() {return list.isEmpty();}
+    public void untruc(){int i;}
 
 }
